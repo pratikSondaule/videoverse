@@ -49,15 +49,16 @@ a {
     outline: none;
     border: none;
 
-    padding: 7px 15px;
+    padding: 7px 55px;
     margin: 10px 0px;
-    border-radius: 20px;
+    border-radius: 8px;
     transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 900px) {
     .category-btn {
         margin: 10px;
+        padding: 7px 15px;
     }
 }
 
@@ -65,11 +66,19 @@ a {
     .copyright {
         display: none !important;
     }
+
+    .category-btn {
+        padding: 7px 15px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .scroll-horizontal {
         overflow: auto !important;
+    }
+
+    .category-btn {
+        padding: 7px 15px;
     }
 
     .react-player {

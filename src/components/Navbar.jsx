@@ -14,7 +14,14 @@ const Navbar = () => {
         >
             <Link to='/' style={{ display: 'flex', alignItems: 'center' }}>
                 <img src={logo} alt='Logo' style={{ height: '55px' }} />
-                <Typography variant='h5' color='white' sx={{ display: { xs: 'none' } }}>VidVerse</Typography>
+                <Typography
+                    variant='h5'
+                    color='white'
+                    sx={{ display: { xs: 'none', sm: 'block', lg: 'block' } }}
+                    fontWeight='bold'
+                >
+                    VidVerse
+                </Typography>
             </Link>
             <SearchBar />
 
