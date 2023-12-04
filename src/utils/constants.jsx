@@ -12,7 +12,7 @@ import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import CurrencyBitcoinIcon from '@mui/icons-material/CurrencyBitcoin';
 
 export const categories = [
-    { name: 'Home', icon: <HomeIcon />, },
+    { name: 'New', icon: <HomeIcon />, },
     { name: 'Music', icon: <MusicNoteIcon /> },
     { name: 'Education', icon: <SchoolIcon />, },
     { name: 'Podcast', icon: <GraphicEqIcon />, },
