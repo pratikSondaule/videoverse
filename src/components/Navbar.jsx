@@ -20,7 +20,7 @@ const Navbar = () => {
                     sx={{ display: { xs: 'none', sm: 'block', lg: 'block' } }}
                     fontWeight='bold'
                 >
-                    VidVerse
+                    VideoVerse
                 </Typography>
             </Link>
             <SearchBar />
